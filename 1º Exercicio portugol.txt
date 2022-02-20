@@ -1,0 +1,52 @@
+programa
+{
+	
+inclua biblioteca Util --> u
+	funcao inicio()
+ 
+	{
+		cadeia nome, nasc, curso
+		inteiro idade, d, m, a
+		
+		
+		escreva("Olá eu sou o IA da Generation e vou pedir a você algumas informações pra concluir seu cadastro, ok!\n")
+		escreva
+(" \nQual o seu nome completo?")
+		escreva(" \n Digite o seu nome: ")
+		leia(nome)
+		
+		escreva("\nQual sua idade?")
+		escreva("\n Digite sua idade: ")
+		leia(idade)
+		
+		escreva("\nQual a sua data de nascimento?")
+		escreva("\n Digite suadata de nascimento: ")
+		leia(nasc)
+		
+		escreva(" Idade: ", idade, " anos\n") 
+		escreva("\nQual curso você irá fazer?")
+		escreva("\n Digite o nome do curso: ")
+		leia(curso)
+	
+
+		escreva(" \nReunindo suas informações")
+		u.aguarde(1000)
+		escreva(".")
+		u.aguarde(500)
+		escreva(".")
+		u.aguarde(500)
+		escreva(".")
+		u.aguarde(500)
+		escreva(".")
+		u.aguarde(500)
+		escreva(".")
+		u.aguarde(500)
+
+		escreva("\n\n-------------------------------------")
+		escreva("\nNome: ",nome) 
+		escreva("\nIdade: ", idade)
+		escreva("\nData de nascimento: ", nasc)
+		escreva("\nCurso: ",curso)
+		escreva("\n-------------------------------------\n")
+	}
+}
